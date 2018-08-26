@@ -13,6 +13,7 @@ function create-link {
 function link-files {
 	echo "Linking files..."
 	create-link "$PWD/vimrc" "$HOME/.vimrc"
+	create-link "$PWD/zshrc" "$HOME/.zshrc"
     create-link "$PWD/vim/colors" "$HOME/.vim/colors"
     create-link "$PWD/vim/autoload" "$HOME/.vim/autoload"
 }
